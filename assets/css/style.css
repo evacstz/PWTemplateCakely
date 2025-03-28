@@ -1,11 +1,13 @@
+/* e eu aqui pensando que eu tava arrasando. */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Josefin Sans", sans-serif;
 }
 
-#info {
+#info-contato {
     background-color: #e40982;
     color: white;
     text-align: center;
@@ -20,27 +22,40 @@
     margin-top: 15px;
 }
 
-#menu>li>a{
-    text-decoration: none;
-    color: #e40982;
-}
-
-.item{
+#menu>li {
     margin: 10px;
     list-style: none;
 }
 
-.ttprinc{
+#menu>li>a {
+    text-decoration: none;
     color: #e40982;
-    font-size: 70px;
 }
 
-#infop{
+#texto-destaque {
     display: flex;
     flex-direction: column;
-    margin-top: px;
     margin-left: 350px;
-    width: 800px;
+}
+
+#titulo-principal {
+    width: 791px;
+    height: 147.81px;
+    color: #e40982;
+    font-size: 70px;
+    line-height: 0.93;
+}
+
+#parag-principal {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    color: #7c6e67;
+    line-height: 1.5;
+    width: 744px;
+    height: 75.53px;
+}
+
+#titulo-imagens {
+    margin-left: 350px;
 }
 
 #imgdestaque{
@@ -55,11 +70,7 @@
     height: 369.64px;
 }
 
-.divtitulo{
-    margin-left: 350px;
-}
-
-.tituloimg{
+#estilo-titulo {
     margin-top: 100px;
     color: #e40982;
     font-weight: 200;
