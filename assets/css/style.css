@@ -84,10 +84,11 @@
 }
 
 #sobre-texto {
-    padding-top: 90px;
-    padding-bottom: 90px;
+    align-items: center ;
     width: 800px;
-    margin-right: 250px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    margin-right: 150px;
 }
 
 #about-titulo {
@@ -100,104 +101,3 @@
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     color: #7c6e67;
 }
-
-
-
-
-
-
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Josefin Sans", sans-serif;
-}
-
-#info-contato {
-    background-color: #e40982;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-
-#menu {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 15px;
-    list-style: none;
-}
-
-#menu li a {
-    text-decoration: none;
-    color: #e40982;
-}
-
-#texto-destaque {
-    text-align: center;
-    padding: 20px;
-}
-
-#titulo-principal {
-    color: #e40982;
-    font-size: 2.5rem;
-    margin-bottom: 15px;
-}
-
-#parag-principal {
-    color: #7c6e67;
-    max-width: 80%;
-    margin: auto;
-    line-height: 1.5;
-}
-
-#titulo-imagens {
-    text-align: center;
-    margin: 40px 0;
-}
-
-#imagens-destaque {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-    padding: 15px;
-}
-
-.img-produto {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-}
-
-#sobre-nos {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    background-color: #ffece1c4;
-    padding: 20px;
-    text-align: center;
-}
-
-#sobre-texto {
-    max-width: 600px;
-    margin-bottom: 20px;
-}
-
-#mulheres-sorrindo {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-}
-
-@media (max-width: 768px) {
-    #menu {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #titulo-principal {
-        font-size: 2rem;
-    }
-} */
