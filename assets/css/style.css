@@ -1,5 +1,3 @@
-/* e eu aqui pensando que eu tava arrasando. */
-
 * {
     margin: 0;
     padding: 0;
@@ -15,9 +13,8 @@
 }
 
 #menu {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 350px;
+    display: flex; 
+    margin-left: 900px;
     margin-bottom: 80px;
     margin-top: 15px;
 }
@@ -56,25 +53,151 @@
 
 #titulo-imagens {
     margin-left: 350px;
+    margin-top: 80px;
 }
 
-#imgdestaque{
+#estilo-titulo {
+    margin-bottom: 20px;
+    color: #e40982;
+    font-weight: 500;
+    letter-spacing: 3px;
+    font-size: 17px;
+}
+
+#imagens-destaque {
     display: flex;
     margin-left: 350px;
     justify-content: space-between;
     width: 1200px;
 }
 
-.imgprinc{
+.img-produto{
     width: 277.73px;
     height: 369.64px;
 }
 
-#estilo-titulo {
-    margin-top: 100px;
-    color: #e40982;
-    font-weight: 200;
-    letter-spacing: 3px;
-    font-size: 17px;
-    margin-bottom: 10px;
+#sobre-nos {
+    display: flex;
+    height: 400px;
+    margin-top: 50px;
+    background-color:#ffece1c4;
 }
+
+#sobre-texto {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    width: 800px;
+    margin-right: 250px;
+}
+
+#about-titulo {
+    padding-left: 375px;
+    color: #e40982;
+}
+
+#about-parag {
+    padding-left: 375px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    color: #7c6e67;
+}
+
+
+
+
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+#info-contato {
+    background-color: #e40982;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px;
+    list-style: none;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #e40982;
+}
+
+#texto-destaque {
+    text-align: center;
+    padding: 20px;
+}
+
+#titulo-principal {
+    color: #e40982;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+#parag-principal {
+    color: #7c6e67;
+    max-width: 80%;
+    margin: auto;
+    line-height: 1.5;
+}
+
+#titulo-imagens {
+    text-align: center;
+    margin: 40px 0;
+}
+
+#imagens-destaque {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px;
+}
+
+.img-produto {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+#sobre-nos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffece1c4;
+    padding: 20px;
+    text-align: center;
+}
+
+#sobre-texto {
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+#mulheres-sorrindo {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    #menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #titulo-principal {
+        font-size: 2rem;
+    }
+} */
